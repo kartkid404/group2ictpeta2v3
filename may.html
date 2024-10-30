@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #80C4E9;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+    }
+
+    .one {
+        background-color: #FFF6E9;
+        color: #2b4c5c;
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 14px;
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .centering {
+        text-align: center;
+
+    }
+
+    table, td {
+        border-collapse: collapse;
+    }
+
+    th {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+    }
+
+    th, td {
+        border: solid 2px #FF7F3E;
+        width: 110px;
+        height: 50px;
+    }
+
+    .grayedout {
+        color: rgb(211, 216, 224);
+    }
+
+    .Sun {
+        color: red;
+    }
+
+    #goingbac {
+        background-color: #FFF6E9;
+        color: #ff681d;
+        padding: 10px;
+        max-width: 95px;
+        border-radius: 10px;
+    }
+
+    #goingbac:hover {
+        background-color: #ece4d7;
+        color: #e25d1a;
+    }
+
+    #nextturn {
+        background-color: #FFF6E9;
+        color: #ff681d;
+        padding: 10px;
+        max-width: 95px;
+        border-radius: 10px;
+        margin-left: auto;
+    }
+
+    #nextturn:hover {
+        background-color: #ece4d7;
+        color: #e25d1a;
+    }
+
+    .containerbutton {
+        display: flex;
+    }
+
+    #laborday {
+        position: relative;
+        background-color: white;
+    }
+
+    #laborday img {
+        position: absolute;
+        left: 2px;
+        bottom: 3px;
+    }
+
+    #laborday:hover {
+        background-color: #d4d4d4;
+    }
+
+    #independant {
+        position: relative;
+        background-color: white;
+    }
+
+    #independant img{
+        position: absolute;
+        left: 2px;
+        bottom: 1px;
+    }
+
+    #independant:hover {
+        background-color: #d4d4d4;
+    }
+
+    .eideid {
+        position: relative;
+        background-color: white;
+    }
+    .eideid img {
+        position: absolute;
+        left: 2px;
+        bottom: 2px;
+    }
+
+    .eideid:hover {
+        background-color: #d4d4d4;
+    }
+
+    #nationalhero {
+        position: relative;
+        background-color: white;
+    }
+
+    #nationalhero img {
+        position: absolute;
+        left: 2px;
+        bottom: 2px;
+    }
+
+    #nationalhero:hover {
+        background-color: #d4d4d4;
+    }
+   
+
+</style>
+<body>
+    <h1 style="text-align: center;">Pasteur 2025 Calendar</h1>
+    <hr>
+    <h3 style="text-align: center;">May</h3>
+    <hr>
+    <div class="one">
+        <table>
+            <thead>
+                <tr class="centering">
+                    <th class="Sun">Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="centering">
+                    <td class="grayedout">27</td>
+                    <td class="grayedout">28</td>
+                    <td class="grayedout">29</td>
+                    <td class="grayedout">30</td>
+
+                    <td id="laborday" onclick="iliketomoveitmoveit()"><img src="labordayy.png" alt="labordaypic" height="20px">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr class="centering">
+                    <td class="Sun">4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+
+                <tr class="centering">
+                    <td class="Sun">11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                </tr>
+
+                <tr class="centering">
+                    <td class="Sun">18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr class="centering">
+                    <td class="Sun">25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <h3 style="text-align: center;">June</h3> 
+    <hr> 
+    <div class="one">
+        <table>
+            <thead>
+                <tr class="centering">
+                    <th class="Sun">Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="centering">
+                    <td class="Sun">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+
+                    <td>5</td>
+                    <td class="eideid" onclick="remembercuteandcuddlyboyscuteandcuddly()"><img src="eideidtoall.png" alt="eidlife" height="20px">6</td>
+                    <td class="eideid" onclick="remembercuteandcuddlyboyscuteandcuddly()"><img src="eideidtoall.png" alt="eidlife" height="20px">7</td>
+                </tr>
+                <tr class="centering">
+                    <td class="Sun">8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td id="independant" onclick="justsmileandwaveboyssmileandwave()"><img src="independenceday.png" alt="independentphil" height="20px">12</td>
+                    <td>13</td>
+                    <td>14</td>
+                </tr>
+
+                <tr class="centering">
+                    <td class="Sun">15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                </tr>
+
+                <tr class="centering">
+                    <td class="Sun">22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                </tr>
+                <tr class="centering">
+                    <td class="Sun">29</td>
+                    <td>30</td>
+                    <td class="grayedout">1</td>
+                    <td class="grayedout">2</td>
+                    <td class="grayedout">3</td>
+                    <td class="grayedout">4</td>
+                    <td class="grayedout">5</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <h3 style="text-align: center;">July</h3> 
+    <hr> 
+    <div class="one">
+        <table>
+            <thead>
+                <tr class="centering">
+                    <th class="Sun">Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tr>
+                <tr class="centering">
+                    <td class="grayedout">29</td>
+                    <td class="grayedout">30</td>
+                    <td >1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+                <tr class="centering">
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr class="centering">
+                    <td class="Sun">13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                </tr>
+
+                <tr class="centering">
+                    <td class="Sun">20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                </tr>
+
+                <tr class="centering">
+                    <td class="Sun">27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td class="grayedout">1</td>
+                    <td class="grayedout">2</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <h3 style="text-align: center;">August</h3> 
+    <hr> 
+    <div class="one">
+        <table>
+            <thead>
+                <tr class="centering">
+                    <th class="Sun">Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tr>
+                <tr class="centering">
+                    <td class="grayedout">27</td>
+                    <td class="grayedout">28</td>
+                    <td class="grayedout">29</td>
+                    <td class="grayedout">30</td>
+                    <td class="grayedout">31</td>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr class="centering">
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <tr class="centering">
+                    <td class="Sun">10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                </tr>
+
+                <tr class="centering">
+                    <td class="Sun">17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                </tr>
+
+                <tr class="centering">
+                    <td class="Sun">24</td>
+                    <td id="nationalhero" onclick="youhighermammalcanyouread()"><img src="heroesday.jpg" alt="nationalheroesday" height="20px">25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td >29</td>
+                    <td >30</td>
+                </tr>
+
+                <tr class="centering">
+                    <td class="Sun">31</td>
+                    <td class="grayedout">1</td>
+                    <td class="grayedout">2</td>
+                    <td class="grayedout">3</td>
+                    <td class="grayedout">4</td>
+                    <td class="grayedout">5</td>
+                    <td class="grayedout">6</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="containerbutton">
+        <p id="goingbac" style="text-align: center;"><a href="january.html" style="text-decoration: none;">Prev. Page</a></p>
+        <p id="nextturn"style="text-align: center;"><a href="september.html" style="text-decoration: none;">Next Page</a></p>
+    </div>
+
+    <div>
+    </div>
+       
+</body>
+
+<script>
+    function iliketomoveitmoveit() {
+        alert("It's Labor Day!")
+    }
+
+    function justsmileandwaveboyssmileandwave() {
+        alert("Independence Day - A happy Independence Day for all! Lahat - para sa Diyos, sa Bayan, at sa bawat pamilyang Pilipino.")
+    }
+
+    function remembercuteandcuddlyboyscuteandcuddly() {
+        alert("Eid Al Adha - Eid Mubarak! May your faith in Allah be a beacon of hope and light in times of darkness. 🌙🕌✨")
+    }
+
+    function youhighermammalcanyouread() {
+        alert("National Heroes Day - Today, we honor our national heroes and all the nameless Filipinos who bravely fought for our freedom.")
+    }
+</script>
+
+</html>
